@@ -1,4 +1,5 @@
 @startuml
+
 left to right direction
 skinparam packageStyle rectangle
 actor "Пользователь" as User
@@ -10,4 +11,5 @@ package "Система" {
 User --> UC_Login
 User --> UC_Register
 User --> UC_Reset
+
 @enduml
