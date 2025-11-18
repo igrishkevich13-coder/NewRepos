@@ -1,15 +1,10 @@
 @startuml
-
-left to right direction
-skinparam packageStyle rectangle
-actor "Пользователь" as User
-package "Система" {
-    usecase "Вход в систему" as UC_Login
-    usecase "Регистрация" as UC_Register
-    usecase "Сброс пароля" as UC_Reset
-}
-User --> UC_Login
-User --> UC_Register
-User --> UC_Reset
-
+actor "Библиотекарь" as User1
+User1 --> (Добавить новую книгу в каталог)
+User1 --> (Внести дату выдачи и примерную дату возврата)
+User1 --> (Видеть список книг, взятых читателем)
+User1 --> (Внести новых читателей)
+actor "Читатель" as User2
+User2 --> (Внести дату выдачи и примерную дату возврата)
+User2 --> (Взять книгу из библиотеки)
 @enduml
