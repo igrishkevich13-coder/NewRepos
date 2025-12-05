@@ -1,0 +1,7 @@
+erdiagram Name
+
+notation=default
+
+entity E1 { id1 key }
+entity E2 { id2 key }
+relationship Rel { E1 -> E2 }
