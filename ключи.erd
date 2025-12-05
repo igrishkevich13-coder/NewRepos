@@ -4,13 +4,13 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -207.8442,
-    "scrollLeft": -202.8162,
-    "zoomLevel": 0.73,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
     "show": 431,
     "database": 4,
     "databaseName": "",
-    "canvasType": "ERD",
+    "canvasType": "@dineug/erd-editor/builtin-generator-code",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -67,20 +67,20 @@
       },
       "URd-Ywn8MamakF4dqMf1F": {
         "id": "URd-Ywn8MamakF4dqMf1F",
-        "name": "Книга",
+        "name": "Book",
         "comment": "",
         "columnIds": [
           "MArwJAXIONJAq5KrBCcR9",
-          "XKclV1BKiGUtSZ_S5nBmA",
           "Lq9t_oQssUi7nlqmsz2AG",
+          "XKclV1BKiGUtSZ_S5nBmA",
           "8YQN3Dbenak87zBMFEhO-"
         ],
         "seqColumnIds": [
           "MArwJAXIONJAq5KrBCcR9",
-          "XKclV1BKiGUtSZ_S5nBmA",
           "Lq9t_oQssUi7nlqmsz2AG",
           "JZglLVsArTwyhy9E7-eUW",
           "zLiasCGsn62S_4u0nRI-H",
+          "XKclV1BKiGUtSZ_S5nBmA",
           "8YQN3Dbenak87zBMFEhO-"
         ],
         "ui": {
@@ -92,7 +92,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1764961545220,
+          "updateAt": 1764961907231,
           "createAt": 1764959999474
         }
       },
@@ -117,7 +117,7 @@
       },
       "ehqMjF_jclpzVlWfCooNu": {
         "id": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Читатель",
+        "name": "Reader",
         "comment": "",
         "columnIds": [
           "QH87gct4V9Taqb99Q1s4f",
@@ -142,13 +142,13 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1764961540787,
+          "updateAt": 1764962030645,
           "createAt": 1764960528612
         }
       },
       "QJJw3Qn7792y3Sry1FMD6": {
         "id": "QJJw3Qn7792y3Sry1FMD6",
-        "name": "Бронь",
+        "name": "Booking",
         "comment": "",
         "columnIds": [
           "85cuUXwmVPZgEFFplg-T_",
@@ -163,7 +163,8 @@
           "Hgd0yufXV26aSbXUdis44",
           "GwXkJQ0s_veRs3KBuoH7z",
           "qcs8DEC5ZXPfzkWF-6paR",
-          "INABHJjbt3i2D-rnDFpeY"
+          "INABHJjbt3i2D-rnDFpeY",
+          "jkBDUHD_AQH8p20Vo5oNQ"
         ],
         "ui": {
           "x": 534,
@@ -174,7 +175,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1764961543540,
+          "updateAt": 1764962384293,
           "createAt": 1764960553178
         }
       }
@@ -183,7 +184,7 @@
       "MArwJAXIONJAq5KrBCcR9": {
         "id": "MArwJAXIONJAq5KrBCcR9",
         "tableId": "URd-Ywn8MamakF4dqMf1F",
-        "name": "Книга_ID",
+        "name": "Book_ID",
         "comment": "",
         "dataType": "",
         "default": "",
@@ -196,14 +197,14 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960673757,
+          "updateAt": 1764961892826,
           "createAt": 1764960036842
         }
       },
       "Lq9t_oQssUi7nlqmsz2AG": {
         "id": "Lq9t_oQssUi7nlqmsz2AG",
         "tableId": "URd-Ywn8MamakF4dqMf1F",
-        "name": "Название",
+        "name": "name",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
@@ -216,7 +217,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960777320,
+          "updateAt": 1764961911843,
           "createAt": 1764960252890
         }
       },
@@ -243,7 +244,7 @@
       "8YQN3Dbenak87zBMFEhO-": {
         "id": "8YQN3Dbenak87zBMFEhO-",
         "tableId": "URd-Ywn8MamakF4dqMf1F",
-        "name": "Статус",
+        "name": "status",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
@@ -256,34 +257,34 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960778529,
+          "updateAt": 1764961935539,
           "createAt": 1764960414841
         }
       },
       "QH87gct4V9Taqb99Q1s4f": {
         "id": "QH87gct4V9Taqb99Q1s4f",
         "tableId": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Читатель_ID",
+        "name": "Reader_ID",
         "comment": "",
         "dataType": "",
         "default": "",
         "options": 10,
         "ui": {
           "keys": 1,
-          "widthName": 68,
+          "widthName": 60,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960830392,
+          "updateAt": 1764962038966,
           "createAt": 1764960542978
         }
       },
       "1GSLJUuc3lhnaC5wB-TEi": {
         "id": "1GSLJUuc3lhnaC5wB-TEi",
         "tableId": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Фамилия",
+        "name": "lastName",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
@@ -296,14 +297,14 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960774305,
+          "updateAt": 1764962104749,
           "createAt": 1764960543361
         }
       },
       "qjEyDvF7Jl4bDbUhbygNC": {
         "id": "qjEyDvF7Jl4bDbUhbygNC",
         "tableId": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Имя",
+        "name": "firstName",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
@@ -316,34 +317,34 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960774992,
+          "updateAt": 1764962100080,
           "createAt": 1764960543738
         }
       },
       "Hl_xQWncA4hgdb2HehE-G": {
         "id": "Hl_xQWncA4hgdb2HehE-G",
         "tableId": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Отчество",
+        "name": "patronymic",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
-          "widthName": 60,
+          "widthName": 62,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960775624,
+          "updateAt": 1764962094761,
           "createAt": 1764960551473
         }
       },
       "QEsD-0QnIeBJfyjx-otXb": {
         "id": "QEsD-0QnIeBJfyjx-otXb",
         "tableId": "ehqMjF_jclpzVlWfCooNu",
-        "name": "Контакты",
+        "name": "contacts",
         "comment": "",
         "dataType": "TEXT",
         "default": "",
@@ -356,7 +357,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960776201,
+          "updateAt": 1764962120761,
           "createAt": 1764960551609
         }
       },
@@ -403,40 +404,40 @@
       "GwXkJQ0s_veRs3KBuoH7z": {
         "id": "GwXkJQ0s_veRs3KBuoH7z",
         "tableId": "QJJw3Qn7792y3Sry1FMD6",
-        "name": "Дата выдачи",
+        "name": "giveOutData",
         "comment": "",
-        "dataType": "",
+        "dataType": "TEXT",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
-          "widthName": 72,
+          "widthName": 69,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960815467,
+          "updateAt": 1764962395002,
           "createAt": 1764960584793
         }
       },
       "qcs8DEC5ZXPfzkWF-6paR": {
         "id": "qcs8DEC5ZXPfzkWF-6paR",
         "tableId": "QJJw3Qn7792y3Sry1FMD6",
-        "name": "Дата примерной сдачи",
+        "name": "giveBackData",
         "comment": "",
-        "dataType": "",
+        "dataType": "TEXT",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
-          "widthName": 130,
+          "widthName": 73,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960824702,
+          "updateAt": 1764962379737,
           "createAt": 1764960585090
         }
       },
@@ -463,20 +464,20 @@
       "85cuUXwmVPZgEFFplg-T_": {
         "id": "85cuUXwmVPZgEFFplg-T_",
         "tableId": "QJJw3Qn7792y3Sry1FMD6",
-        "name": "Бронь_ID",
+        "name": "Booking_ID",
         "comment": "",
         "dataType": "",
         "default": "",
         "options": 10,
         "ui": {
           "keys": 1,
-          "widthName": 60,
+          "widthName": 62,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764960851606,
+          "updateAt": 1764962021496,
           "createAt": 1764960851605
         }
       },
@@ -503,7 +504,27 @@
       "XKclV1BKiGUtSZ_S5nBmA": {
         "id": "XKclV1BKiGUtSZ_S5nBmA",
         "tableId": "URd-Ywn8MamakF4dqMf1F",
-        "name": "Бронь_ID",
+        "name": "Booking_ID",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 62,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1764961900327,
+          "createAt": 1764961110926
+        }
+      },
+      "R4budN7449pZzdpiDXiCE": {
+        "id": "R4budN7449pZzdpiDXiCE",
+        "tableId": "QJJw3Qn7792y3Sry1FMD6",
+        "name": "Reader_ID",
         "comment": "",
         "dataType": "",
         "default": "",
@@ -516,28 +537,28 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764961110927,
-          "createAt": 1764961110926
+          "updateAt": 1764962046637,
+          "createAt": 1764961134672
         }
       },
-      "R4budN7449pZzdpiDXiCE": {
-        "id": "R4budN7449pZzdpiDXiCE",
+      "jkBDUHD_AQH8p20Vo5oNQ": {
+        "id": "jkBDUHD_AQH8p20Vo5oNQ",
         "tableId": "QJJw3Qn7792y3Sry1FMD6",
-        "name": "Читатель_ID",
+        "name": "",
         "comment": "",
         "dataType": "",
         "default": "",
-        "options": 8,
+        "options": 0,
         "ui": {
-          "keys": 2,
-          "widthName": 68,
+          "keys": 0,
+          "widthName": 60,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764961134673,
-          "createAt": 1764961134672
+          "updateAt": 1764962382713,
+          "createAt": 1764962382713
         }
       }
     },
@@ -589,7 +610,7 @@
           "columnIds": [
             "XKclV1BKiGUtSZ_S5nBmA"
           ],
-          "x": 413,
+          "x": 415,
           "y": 215,
           "direction": 2
         },
@@ -608,7 +629,7 @@
           "columnIds": [
             "QH87gct4V9Taqb99Q1s4f"
           ],
-          "x": 419,
+          "x": 413,
           "y": 382,
           "direction": 2
         },
