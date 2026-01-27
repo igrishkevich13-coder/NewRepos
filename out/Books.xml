@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<Books>
+  <Book>
+    <ID>1</ID>
+    <Booking_ID>1</Booking_ID>
+    <Name>Война и мир</Name>
+    <Status>true</Status>
+  </Book>
+  <Book>
+    <ID>2</ID>
+    <Booking_ID>2</Booking_ID>
+    <Name>Мёртвые души</Name>
+    <Status>true</Status>
+  </Book>
+  <Book>
+    <ID>3</ID>
+    <Booking_ID>3</Booking_ID>
+    <Name>Гроза</Name>
+    <Status>true</Status>
+  </Book>
+  <Book>
+    <ID>4</ID>
+    <Booking_ID>4</Booking_ID>
+    <Name>Недоросль</Name>
+    <Status>true</Status>
+  </Book>
+  <Book>
+    <ID>5</ID>
+    <Booking_ID>5</Booking_ID>
+    <Name>Горе от ума</Name>
+    <Status>true</Status>
+  </Book>
+  <Book>
+    <ID>6</ID>
+    <Booking_ID/>
+    <Name>Евгений Онегин</Name>
+    <Status>false</Status>
+  </Book>
+  <Book>
+    <ID>7</ID>
+    <Booking_ID/>
+    <Name>Герой нашего времени</Name>
+    <Status>false</Status>
+  </Book>
+  <Book>
+    <ID>8</ID>
+    <Booking_ID/>
+    <Name>Отцы и дети</Name>
+    <Status>false</Status>
+  </Book>
+  <Book>
+    <ID>9</ID>
+    <Booking_ID/>
+    <Name>Преступление и наказание</Name>
+    <Status>false</Status>
+  </Book>
+  <Book>
+    <ID>10</ID>
+    <Booking_ID/>
+    <Name>Тихий Дон</Name>
+    <Status>false</Status>
+  </Book>
+</Books>

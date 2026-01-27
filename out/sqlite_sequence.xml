@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<sqlite_sequences>
+  <sqlite_sequence>
+    <name>Readers</name>
+    <seq>5</seq>
+  </sqlite_sequence>
+  <sqlite_sequence>
+    <name>Books</name>
+    <seq>10</seq>
+  </sqlite_sequence>
+  <sqlite_sequence>
+    <name>Booking</name>
+    <seq>5</seq>
+  </sqlite_sequence>
+</sqlite_sequences>

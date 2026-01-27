@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "Reader_ID": 1,
+    "DateOfTaking": "01.12.2025",
+    "DateOfReturn": "14.12.2025"
+  },
+  {
+    "ID": 2,
+    "Reader_ID": 2,
+    "DateOfTaking": "01.12.2025",
+    "DateOfReturn": "14.12.2025"
+  },
+  {
+    "ID": 3,
+    "Reader_ID": 3,
+    "DateOfTaking": "01.12.2025",
+    "DateOfReturn": "14.12.2025"
+  },
+  {
+    "ID": 4,
+    "Reader_ID": 4,
+    "DateOfTaking": "01.12.2025",
+    "DateOfReturn": "14.12.2025"
+  },
+  {
+    "ID": 5,
+    "Reader_ID": 5,
+    "DateOfTaking": "01.12.2025",
+    "DateOfReturn": "14.12.2025"
+  }
+]

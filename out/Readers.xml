@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Readers>
+  <Reader>
+    <ID>1</ID>
+    <LastName>Иваненко</LastName>
+    <FirstName>Иван</FirstName>
+    <Patronimus>Иванович</Patronimus>
+    <Contacts>mail1@mail.ru</Contacts>
+  </Reader>
+  <Reader>
+    <ID>2</ID>
+    <LastName>Иваненко</LastName>
+    <FirstName>Анна</FirstName>
+    <Patronimus>Ивановна</Patronimus>
+    <Contacts>mail2@mail.ru</Contacts>
+  </Reader>
+  <Reader>
+    <ID>3</ID>
+    <LastName>Петров</LastName>
+    <FirstName>Пётр</FirstName>
+    <Patronimus>Петрович</Patronimus>
+    <Contacts>mail3@mail.ru</Contacts>
+  </Reader>
+  <Reader>
+    <ID>4</ID>
+    <LastName>Николаев</LastName>
+    <FirstName>Николай</FirstName>
+    <Patronimus>Николаевич</Patronimus>
+    <Contacts>mail4@mail.ru</Contacts>
+  </Reader>
+  <Reader>
+    <ID>5</ID>
+    <LastName>Васильев</LastName>
+    <FirstName>Василий</FirstName>
+    <Patronimus>Васильевич</Patronimus>
+    <Contacts>mail5@mail.ru</Contacts>
+  </Reader>
+</Readers>

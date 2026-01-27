@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1,
+    "Booking_ID": 1,
+    "Name": "Война и мир",
+    "Status": true
+  },
+  {
+    "ID": 2,
+    "Booking_ID": 2,
+    "Name": "Мёртвые души",
+    "Status": true
+  },
+  {
+    "ID": 3,
+    "Booking_ID": 3,
+    "Name": "Гроза",
+    "Status": true
+  },
+  {
+    "ID": 4,
+    "Booking_ID": 4,
+    "Name": "Недоросль",
+    "Status": true
+  },
+  {
+    "ID": 5,
+    "Booking_ID": 5,
+    "Name": "Горе от ума",
+    "Status": true
+  },
+  {
+    "ID": 6,
+    "Booking_ID": null,
+    "Name": "Евгений Онегин",
+    "Status": false
+  },
+  {
+    "ID": 7,
+    "Booking_ID": null,
+    "Name": "Герой нашего времени",
+    "Status": false
+  },
+  {
+    "ID": 8,
+    "Booking_ID": null,
+    "Name": "Отцы и дети",
+    "Status": false
+  },
+  {
+    "ID": 9,
+    "Booking_ID": null,
+    "Name": "Преступление и наказание",
+    "Status": false
+  },
+  {
+    "ID": 10,
+    "Booking_ID": null,
+    "Name": "Тихий Дон",
+    "Status": false
+  }
+]
